@@ -1,0 +1,4 @@
+resource "aws_instance" "example" {
+  ami           = "${AMIS}"
+  instance_type = "t2.micro"
+}
